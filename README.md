@@ -1,8 +1,9 @@
 # CustomerCRUDApplication
 INTEND: This project is a part of a assignment-->
-This project explains Customer CRUD (**C**reate, **R**ead, **U**pdate, **D**elete) operations using spring boot and H2 in-memory database.
-In this app we are using Spring Data JPA for built-in methods to do Customer CRUD operations.     
-`@EnableJpaRepositories` annotation is used on main class to Enable H2 DB related configuration, which will read properties from `application.properties` file.
+DESCRIPTION: 
+1. This project explains Customer CRUD (**C**reate, **R**ead, **U**pdate, **D**elete) operations using spring boot and H2 in-memory database.
+2. In this app we are using Spring Data JPA for built-in methods to do Customer CRUD operations.     
+3. `@EnableJpaRepositories` annotation is used on main class to Enable H2 DB related configuration, which will read properties from `application.properties` file.
 
 Also, recently added **Spring Reactive programming** support with the help of **Spring Webflux** in this application. All reactive classes/interfaces are added with prefix as `Reactive*`.
 
